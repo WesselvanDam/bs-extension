@@ -6,9 +6,16 @@
     "background": {
         "service_worker": "background.js"
     },
-    "permissions": ["storage", "activeTab", "scripting"],
+    "permissions": ["activeTab", "tabs", "scripting"],
+    "content_scripts": [
+        {
+          "matches": ["https://brightspace.universiteitleiden.nl/*/topics/*"],
+          "run_at": "document_idle",
+          "js": ["content-script.js"]
+        }
+      ],
     "action": {
-        "default_popup": "popup.html",
+        "default_title": "Click to open the PDF",
         "default_icon": {
             "16": "/images/icon16.png",
             "32": "/images/icon32.png",
