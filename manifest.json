@@ -1,7 +1,7 @@
 {
     "name": "BrightSpace PDF Extension",
     "description": "An extension that allows users of BrightSpace to open PDF's, video's and text shown in the 'Content' tab to be opened in a separate tab.",
-    "version": "0.1",
+    "version": "1.0",
     "manifest_version": 3,
     "permissions": ["activeTab", "scripting"],
     "content_scripts": [
