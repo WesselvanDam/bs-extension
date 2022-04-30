@@ -14,6 +14,7 @@ addStyle(`
         fill: #e97512;
         justify-content: center;
         padding: 8px 8px 5px 8px;
+        margin-left: 0.5rem;
         vertical-align:middle;
         display:inline-block;
         cursor:pointer;
