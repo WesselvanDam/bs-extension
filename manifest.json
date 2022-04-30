@@ -3,26 +3,17 @@
     "description": "An extension that allows users of BrightSpace to open PDF's shown in the 'Content' tab to be opened in a separate tab",
     "version": "0.1",
     "manifest_version": 3,
-    "background": {
-        "service_worker": "background.js"
-    },
-    "permissions": ["activeTab", "tabs", "scripting"],
+    "permissions": ["activeTab", "scripting"],
     "content_scripts": [
         {
-          "matches": ["https://brightspace.universiteitleiden.nl/*/topics/*"],
-          "run_at": "document_idle",
+          "matches": ["https://brightspace.universiteitleiden.nl/*/topics/*","https://s.brightspace.com/*"],
+          "exclude_matches": ["https://brightspace.universiteitleiden.nl/*/units/*"],
+          "exclude_globs": ["*units*"],
+          "all_frames": true,
+          "run_at": "document_end",
           "js": ["content-script.js"]
         }
       ],
-    "action": {
-        "default_title": "Click to open the PDF",
-        "default_icon": {
-            "16": "/images/icon16.png",
-            "32": "/images/icon32.png",
-            "48": "/images/icon48.png",
-            "128": "/images/icon128.png"
-          }
-    },
     "icons": {
         "16": "/images/icon16.png",
         "32": "/images/icon32.png",
