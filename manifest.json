@@ -6,7 +6,15 @@
     "permissions": ["activeTab"],
     "content_scripts": [
         {
-          "matches": ["https://brightspace.universiteitleiden.nl/*","https://s.brightspace.com/*"],
+          "matches": [
+            "https://brightspace.universiteitleiden.nl/*",
+            "https://brightspace.tudelft.nl/*",
+            "https://brightspace.rug.nl/*",
+            "https://brightspace.avans.nl/*",
+            "https://brightspace.ru.nl/*",
+            "https://brightspace.hhs.nl/*",
+            "https://brightspace.wur.nl/*"
+          ],
           "all_frames": true,
           "match_origin_as_fallback": true,
           "run_at": "document_idle",

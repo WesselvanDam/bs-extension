@@ -15,6 +15,7 @@ function mainLoop() {
   var buttonTray = document
     .getElementsByClassName("header-button-tray")
     .item(0);
+  if (buttonTray == null) return;
   buttonTray.insertAdjacentHTML(
     "beforeend",
     `
