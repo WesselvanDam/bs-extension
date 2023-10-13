@@ -48,7 +48,9 @@
             "https://brightspace.shepherd.edu/*",
             "https://brightspace.indwes.edu/*",
             "https://brightspace.lmu.edu/*",
-            "https://brightspace.uhi.ac.uk/*"
+            "https://brightspace.uhi.ac.uk/*",
+            "https://brightspace.vanderbilt.edu/*",
+            "https://tafeqldtc.brightspace.com/*"
           ],
           "all_frames": true,
           "match_origin_as_fallback": true,
