@@ -46,3 +46,5 @@ once. Add the extension to Google Chrome [here](https://chrome.google.com/websto
  - brightspace.indwes.edu
  - brightspace.lmu.edu
  - brightspace.uhi.ac.uk
+ - brightspace.vanderbilt.edu
+ - tafeqldtc.brightspace.com
