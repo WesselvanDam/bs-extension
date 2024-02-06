@@ -48,3 +48,5 @@ once. Add the extension to Google Chrome [here](https://chrome.google.com/websto
  - brightspace.uhi.ac.uk
  - brightspace.vanderbilt.edu
  - tafeqldtc.brightspace.com
+ - learn.inside.dtu.dk
+ - https://bright.uvic.ca/
