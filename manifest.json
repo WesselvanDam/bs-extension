@@ -1,7 +1,7 @@
 {
     "name": "BrightSpace Open In New Tab Extension",
     "description": "Allows users of BrightSpace to open PDF's, video's and text shown in the 'Content' tab in a separate tab using a button.",
-    "version": "1.3",
+    "version": "1.4",
     "manifest_version": 3,
     "permissions": ["activeTab"],
     "content_scripts": [
@@ -50,7 +50,9 @@
             "https://brightspace.lmu.edu/*",
             "https://brightspace.uhi.ac.uk/*",
             "https://brightspace.vanderbilt.edu/*",
-            "https://tafeqldtc.brightspace.com/*"
+            "https://tafeqldtc.brightspace.com/*",
+	          "https://learn.inside.dtu.dk/*",
+            "https://bright.uvic.ca/*"
           ],
           "all_frames": true,
           "match_origin_as_fallback": true,
