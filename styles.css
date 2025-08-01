@@ -1,19 +1,19 @@
-.open-in-new-tab-btn {
-  background-color:transparent;
-  border-radius:0.3rem;
-  border:0px;
+#extension-open-in-new-tab-btn {
+  background-color: transparent;
+  border-radius: 0.3rem;
+  border: 0px;
   fill: #e97512;
   justify-content: center;
-  padding: 8px 8px 5px 8px;
+  padding: 8px;
   margin-left: 0.5rem;
-  vertical-align:middle;
-  display:inline-block;
-  cursor:pointer;
+  vertical-align: middle;
+  display: inline-block;
+  cursor: pointer;
 }
-.open-in-new-tab-btn:hover {
-  background-color:#e3e9f1;
+#extension-open-in-new-tab-btn:hover {
+  background-color: #e3e9f1;
 }
-.open-in-new-tab-btn:active {
-  position:relative;
-  top:1px;
+#extension-open-in-new-tab-btn:active {
+  position: relative;
+  top: 1px;
 }
