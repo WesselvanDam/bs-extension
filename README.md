@@ -51,3 +51,12 @@ once. Add the extension to Google Chrome [here](https://chrome.google.com/websto
  - learn.inside.dtu.dk
  - bright.uvic.ca
  - mylo.utas.edua.au
+ - nscconline.brightspace.com
+ - scohs.brightspace.com
+ - learn.bcit.ca
+ - my.aacsb.edu
+ - members.nln.org
+ - imsa.brightspace.com
+ - smu.brightspace.com
+ - d2l.cbe.ab.ca
+ - purdue.brightspace.com
