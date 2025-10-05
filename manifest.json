@@ -62,7 +62,7 @@
         "https://imsa.brightspace.com/*",
         "https://smu.brightspace.com/*",
         "https://d2l.cbe.ab.ca/*",
-        "https://purdue.brightspace.com/*",
+        "https://purdue.brightspace.com/*"
 
       ],
       "all_frames": true,
